@@ -1,0 +1,61 @@
+.menuFrame{
+    width:70%;
+    height:100%;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+
+.menuItem{
+    display:inline-block;
+    width: 50%;
+    margin: 0 auto;
+    height: 33%;
+    background-color:green;
+    border: 8px solid black;
+    text-align:center;
+    padding-top: 180px;
+    padding-bottom: 100px;
+    text-decoration: none;
+    color:rgb(121, 11, 11);
+    font-size:4em;
+    font-weight:bold;
+    font-family: Alpha slab one;
+
+
+
+
+
+}
+
+.menuItem:hover{
+    background-color:red;
+}
+
+.MI-drinks{
+    background-image:url("C:\Users\Adevr\OneDrive\Documenten\TI 3de BA\busInno\ConsumerApp\src\images\drinkss.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 890px 543px;
+}
+
+.MI-lunch{
+    background-image:url("C:\Users\Adevr\OneDrive\Documenten\TI 3de BA\busInno\ConsumerApp\src\images\lunch.jpg");
+}
+
+.MI-dinner{
+    background-image:url("C:\Users\Adevr\OneDrive\Documenten\TI 3de BA\busInno\ConsumerApp\src\images\dinnerrr.jpg");
+    background-size:48%;
+}
+
+.MI-snacks{
+    background-image:url("C:\Users\Adevr\OneDrive\Documenten\TI 3de BA\busInno\ConsumerApp\src\images\snackss.jpg");
+    background-position:center;
+    background-size:11%;
+}
+
+.MI-breakfast{
+    background-image:url("C:\Users\Adevr\OneDrive\Documenten\TI 3de BA\busInno\ConsumerApp\src\images\breakfastt.jpg");
+    background-position:center;
+    background-size: 50%;
+}
