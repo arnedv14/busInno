@@ -3,9 +3,8 @@ import { MenuItems } from "./MenuItems";
 import { Button } from "../Button";
 import "./Navbar.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import About from '../About'
-import Home from '../Home/Home'
-
+import About from "../About";
+import Home from "../Home/Home";
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -15,7 +14,7 @@ class Navbar extends Component {
   };
   render() {
     return (
-      <Router>
+        <div>
           <nav className="NavbarItems">
             <h1 className="navbar-logo">
               React<i className="fab fa-react"></i>
@@ -38,16 +37,7 @@ class Navbar extends Component {
             </ul>
             <Button>Sign Up</Button>
           </nav>
-
-          <Switch>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/">
-              <Home />
-            </Route>
-          </Switch>
-      </Router>
+        </div>
     );
   }
 }
